@@ -1,6 +1,4 @@
 import React from "react";
-// import { render } from "react-dom";
-// importing from "react-emotion" for consistency.
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 
