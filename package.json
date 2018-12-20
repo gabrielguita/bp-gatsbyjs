@@ -12,7 +12,9 @@
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",
     "gatsby": "^2.0.33",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-emotion": "^10.0.0",
+    "styled-components": "^4.1.3"
   }
 }
