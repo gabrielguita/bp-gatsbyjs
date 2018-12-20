@@ -1,6 +1,7 @@
 import React from "react";
+// import ReactDOM from "react-dom"
 import styled from "@emotion/styled";
-import { css } from "@emotion/core";
+import { css } from "emotion";
 
 import Wrapper from "./Wrapper";
 import Title from "./Title";
@@ -41,6 +42,10 @@ const linkClass = css`
   text-decoration: none;
 `;
 
+const wrapperLinkClass = css`
+width: 160px;
+height: 160px;
+`;
 const Box = styled('div') `
   display: flex;
   justify-content: center;
@@ -81,10 +86,7 @@ const App = () => (
     <Wrapper>
       <img
         alt="emotion"
-        className={css({
-          width: 160,
-          height: 160
-        })}
+        className={wrapperLinkClass}
         src={imageUrl}
       />
       <Title
@@ -112,19 +114,9 @@ const App = () => (
         github
       </a>
     </Wrapper>
-    <div className={css`width: 100%; display: grid;`}>
-      <Blockquote border color="darkgrey"
-        cite="https://en.wikipedia.org/wiki/Web_colors#Hex_triplet">A
-        hex triplet is a six-digit, three-byte hexadecimal number used in HTML,
-        CSS, SVG, and other computing applications to represent colors. The
-        bytes represent the red, green and blue components of the color. One
-        byte represents a number in the range 00 to FF (in hexadecimal
-        notation), or 0 to 255 in decimal notation. This represents the least
-        (0) to the most (255) intensity of each of the color components. Thus
-        web colors specify colors in the True Color (24-bit RGB) color scheme.
-        The hex triplet is formed by concatenating three bytes in hexadecimal
-        notation, in the following order:
-
+    <div className={css`width: 100%; display: grid; background: red;`}>
+      <Blockquote border color="dark"
+        cite="https://en.wikipedia.org/wiki/Web_colors#Hex_triplet">
         Byte 1: red value (color type red)
         Byte 2: green value (color type green)
         Byte 3: blue value (color type blue)
@@ -154,4 +146,4 @@ const App = () => (
 );
 
 export default () => <App />
-// render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));

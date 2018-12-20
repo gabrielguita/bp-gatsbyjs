@@ -257,6 +257,10 @@
             "version": "^10.0.5"
           },
           {
+            "name": "emotion",
+            "version": "^10.0.5"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.33"
           },
@@ -399,13 +403,33 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-20T13:14:44.726Z",
+      "buildTime": "2018-12-20T14:51:00.970Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "19c462b7a9b38c2309a33d1b8d6c23a1",
+        "contentDigest": "15080b8d0f8af05a075e9c3aee0e4d58",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /advanced/": {
+      "jsonName": "advanced-06f",
+      "internalComponentName": "ComponentAdvanced",
+      "path": "/advanced/",
+      "component": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js",
+      "componentChunkName": "component---src-pages-advanced-js",
+      "context": {},
+      "pluginCreator___NODE": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
+      "pluginCreatorId": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js",
+      "id": "SitePage /advanced/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "56e7ecd7ae95e55d853afcc3ea32f9a1",
+        "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
         "owner": "internal-data-bridge"
       }
     },
@@ -425,26 +449,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "5930aa88bdb7069f26d7ed2e1e319e21",
-        "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /Wrapper/": {
-      "jsonName": "wrapper-3ce",
-      "internalComponentName": "ComponentWrapper",
-      "path": "/Wrapper/",
-      "component": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js",
-      "componentChunkName": "component---src-pages-wrapper-js",
-      "context": {},
-      "pluginCreator___NODE": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
-      "pluginCreatorId": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
-      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js",
-      "id": "SitePage /Wrapper/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9080ec11cfb5c5018ab53d3d509405a6",
         "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
         "owner": "internal-data-bridge"
       }
@@ -469,22 +473,22 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /advanced/": {
-      "jsonName": "advanced-06f",
-      "internalComponentName": "ComponentAdvanced",
-      "path": "/advanced/",
-      "component": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js",
-      "componentChunkName": "component---src-pages-advanced-js",
+    "SitePage /Wrapper/": {
+      "jsonName": "wrapper-3ce",
+      "internalComponentName": "ComponentWrapper",
+      "path": "/Wrapper/",
+      "component": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js",
+      "componentChunkName": "component---src-pages-wrapper-js",
       "context": {},
       "pluginCreator___NODE": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
       "pluginCreatorId": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
-      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js",
-      "id": "SitePage /advanced/",
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js",
+      "id": "SitePage /Wrapper/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "56e7ecd7ae95e55d853afcc3ea32f9a1",
+        "contentDigest": "9080ec11cfb5c5018ab53d3d509405a6",
         "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
         "owner": "internal-data-bridge"
       }
@@ -492,7 +496,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "27685e4cc87f73dc2eea2475f8e4f145"
+    "PLUGINS_HASH": "f8b1e701d6afe85569710e7b97eb145e"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -510,21 +514,21 @@
       "query": "",
       "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/.cache/dev-404-page.js"
     },
+    "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js": {
+      "query": "",
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js"
+    },
     "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/index.js"
-    },
-    "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js": {
-      "query": "",
-      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js"
     },
     "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Title.js": {
       "query": "",
       "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Title.js"
     },
-    "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js": {
+    "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js": {
       "query": "",
-      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js"
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js"
     }
   },
   "staticQueryComponents": {}
