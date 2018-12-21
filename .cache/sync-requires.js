@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-advanced-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/advanced.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/index.js"))),
   "component---src-pages-title-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Title.js"))),
-  "component---src-pages-wrapper-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js")))
+  "component---src-pages-wrapper-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js"))),
+  "component---src-pages-sub-title-js": hot(preferDefault(require("/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/SubTitle.js")))
 }
 

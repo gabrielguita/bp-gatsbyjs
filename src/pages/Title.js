@@ -7,3 +7,4 @@ export default styled.h1`
   text-align: center;
   color: palevioletred;
 `;
+

@@ -492,6 +492,26 @@
         "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /SubTitle/": {
+      "jsonName": "sub-title-2d8",
+      "internalComponentName": "ComponentSubTitle",
+      "path": "/SubTitle/",
+      "component": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/SubTitle.js",
+      "componentChunkName": "component---src-pages-sub-title-js",
+      "context": {},
+      "pluginCreator___NODE": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
+      "pluginCreatorId": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/SubTitle.js",
+      "id": "SitePage /SubTitle/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6f6ac026a4e77b8da62e3875244f0d4",
+        "description": "4390115c-4d2e-523d-a138-5b3ca34e6e2a",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -507,7 +527,8 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "title-25d": "390/path---title-25-d-7b4-NZuapzHg3X9TaN1iIixfv1W23E",
     "wrapper-3ce": "682/path---wrapper-3-ce-eec-NZuapzHg3X9TaN1iIixfv1W23E",
-    "advanced-06f": "601/path---advanced-06-f-ce3-NZuapzHg3X9TaN1iIixfv1W23E"
+    "advanced-06f": "601/path---advanced-06-f-ce3-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sub-title-2d8": "970/path---sub-title-2-d-8-b3a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/.cache/dev-404-page.js": {
@@ -529,6 +550,10 @@
     "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js": {
       "query": "",
       "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/Wrapper.js"
+    },
+    "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/SubTitle.js": {
+      "query": "",
+      "componentPath": "/Users/ionutguita/Desktop/work/gitHub/bp-gatsbyjs/src/pages/SubTitle.js"
     }
   },
   "staticQueryComponents": {}

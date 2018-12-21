@@ -5,6 +5,11 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-pages-sub-title-js",
+        "jsonName": "sub-title-2d8",
+        "path": "/SubTitle/"
+    },
+    {
         "componentChunkName": "component---src-pages-title-js",
         "jsonName": "title-25d",
         "path": "/Title/"

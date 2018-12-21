@@ -5,6 +5,8 @@ import { css } from "emotion";
 
 import Wrapper from "./Wrapper";
 import Title from "./Title";
+import SubTitle from "./SubTitle";
+import ico from "../assets/ico/log-cabin-icon-64.png"
 
 import {
   getTypography,
@@ -14,8 +16,7 @@ import {
   margin
 } from './advanced'
 
-const imageUrl =
-  "https://camo.githubusercontent.com/209bdea972b9b6ef90220c59ecbe66d35ffefa8a/68747470733a2f2f63646e2e7261776769742e636f6d2f746b6834342f656d6f74696f6e2f6d61737465722f656d6f74696f6e2e706e67";
+const imageUrl = ico;
 
 css`
   @font-face {
@@ -43,8 +44,8 @@ const linkClass = css`
 `;
 
 const wrapperLinkClass = css`
-width: 160px;
-height: 160px;
+width: auto;
+height: auto;
 `;
 const Box = styled('div') `
   display: flex;
@@ -97,10 +98,23 @@ const App = () => (
       >
         emotion
       </Title>
+      
+      <SubTitle
+        className={css`
+        font-size: 3em;
+        margin: 0.25em 0;
+      `}
+      >
+        Second emotion
+      </SubTitle>
 
       <Title>
         The Next Generation of CSS-in-JS
       </Title>
+      
+      <SubTitle>
+        Subtitle The Next Generation of CSS-in-JS
+      </SubTitle>
       <a
         href="https://emotion.sh"
         className={linkClass}
@@ -114,7 +128,7 @@ const App = () => (
         github
       </a>
     </Wrapper>
-    <div className={css`width: 100%; display: grid; background: red;`}>
+    <div className={css`width: 100%; display: grid;`}>
       <Blockquote border color="dark"
         cite="https://en.wikipedia.org/wiki/Web_colors#Hex_triplet">
         Byte 1: red value (color type red)
